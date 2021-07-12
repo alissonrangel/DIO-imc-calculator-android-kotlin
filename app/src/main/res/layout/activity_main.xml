@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/imc"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="48sp"
+         />
+    <EditText
+        android:id="@+id/etPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_o_seu_peso_em_quilos"
+        style="@style/edit_text" />
+    <EditText
+        android:id="@+id/etAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_a_sua_altura_em_cm"
+        android:textSize="24sp"
+        style="@style/edit_text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+        <TextView
+            android:id="@+id/tvImc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/imc"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:textSize="48sp"
+            android:layout_marginEnd="24dp"
+             />
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:textSize="32sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

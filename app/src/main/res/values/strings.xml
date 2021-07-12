@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IMC Super Calculator</string>
+    <string name="imc">IMC</string>
+    <string name="digite_o_seu_peso_em_quilos">Peso em quilos:</string>
+    <string name="digite_a_sua_altura_em_cm">Altura em cm:</string>
+    <string name="calcular">Calcular</string>
+</resources>
